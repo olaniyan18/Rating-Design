@@ -1,0 +1,151 @@
+body{
+    width: auto;
+    margin: 0;
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 350px;
+    height: auto;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+}   
+
+.container1{
+    width: 380px;
+    height: auto;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+} 
+
+.circle {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color:rgba(253, 253, 253, 0.04);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 18px;
+    margin-bottom: 29px;
+
+}
+a{ 
+    text-decoration: none;
+}
+
+label{
+    font-family: "Overpass";
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 18px;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+}
+
+.appreciate {
+    display: flex;
+    text-align: center;
+    width:  330px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+p {
+    color: hsl(216, 12%, 54%);
+    font-family: "Overpass";
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 18px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.buttonflex {
+    width: 320px;
+}
+
+
+
+button {
+    margin-top: 10px;
+    font-family: "Overpass";
+    font-weight: 700;
+    font-size: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+    background-color:rgba(253, 253, 253, 0.04);
+    border: 0;
+    color: hsl(216, 12%, 54%);
+}
+
+input {
+    width: 290px;
+    font-family: "Overpass";
+    color: hsl(0, 0%, 100%);;
+    display: flex;
+    margin-top: 30px;
+    background-color: hsl(29, 100%, 50%);
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0;
+    margin-left: 18px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+
+
+.thankyou {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+}
+
+
+.selected {
+    width: 190px;
+    margin: auto;
+    margin-bottom: 30px;
+    height: 30px;
+    background-color: rgba(253, 253, 253, 0.04);
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 145, 43, 0.89);
+    font-weight: 400;
+}
+
+.pressed {
+    background-color: #FF7B00;
+}
+
+
+@media only screen and (max-width:600px) {
+    .container{
+        width: 320px;
+    }   
+    
+     
+}
